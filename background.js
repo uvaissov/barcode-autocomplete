@@ -27,7 +27,7 @@ chrome.runtime.onMessage.addListener(
 
 
 var show = function(text) {
-    var notification = window.webkitNotifications.createNotification('icon_small.png','Есть дело', text);
+    var notification = window.webkitNotifications.createNotification('icon_small.png','Поиск', text);
     notification.show();    
 }
 
